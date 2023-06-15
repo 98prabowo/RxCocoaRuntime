@@ -7,12 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D66D56B32A3ABD090029BF7F /* RxCocoaRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = D66D56B22A3ABD090029BF7F /* RxCocoaRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D66D56C32A3ABD1C0029BF7F /* _RXKVOObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = D66D56BA2A3ABD1B0029BF7F /* _RXKVOObserver.h */; };
+		D66D56C42A3ABD1C0029BF7F /* _RXObjCRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = D66D56BB2A3ABD1B0029BF7F /* _RXObjCRuntime.h */; };
+		D66D56C52A3ABD1C0029BF7F /* _RXDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = D66D56BC2A3ABD1B0029BF7F /* _RXDelegateProxy.h */; };
+		D66D56C62A3ABD1C0029BF7F /* _RX.h in Headers */ = {isa = PBXBuildFile; fileRef = D66D56BD2A3ABD1B0029BF7F /* _RX.h */; };
+		D66D56C72A3ABD1C0029BF7F /* RxCocoaRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = D66D56BE2A3ABD1B0029BF7F /* RxCocoaRuntime.h */; };
+		D66D56C82A3ABD1C0029BF7F /* _RX.m in Sources */ = {isa = PBXBuildFile; fileRef = D66D56BF2A3ABD1B0029BF7F /* _RX.m */; };
+		D66D56C92A3ABD1C0029BF7F /* _RXObjCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = D66D56C02A3ABD1B0029BF7F /* _RXObjCRuntime.m */; };
+		D66D56CA2A3ABD1C0029BF7F /* _RXKVOObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = D66D56C12A3ABD1B0029BF7F /* _RXKVOObserver.m */; };
+		D66D56CB2A3ABD1C0029BF7F /* _RXDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D66D56C22A3ABD1C0029BF7F /* _RXDelegateProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D66D56AF2A3ABD090029BF7F /* RxCocoaRuntime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCocoaRuntime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D66D56B22A3ABD090029BF7F /* RxCocoaRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxCocoaRuntime.h; sourceTree = "<group>"; };
+		D66D56BA2A3ABD1B0029BF7F /* _RXKVOObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RXKVOObserver.h; sourceTree = "<group>"; };
+		D66D56BB2A3ABD1B0029BF7F /* _RXObjCRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RXObjCRuntime.h; sourceTree = "<group>"; };
+		D66D56BC2A3ABD1B0029BF7F /* _RXDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RXDelegateProxy.h; sourceTree = "<group>"; };
+		D66D56BD2A3ABD1B0029BF7F /* _RX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _RX.h; sourceTree = "<group>"; };
+		D66D56BE2A3ABD1B0029BF7F /* RxCocoaRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RxCocoaRuntime.h; path = include/RxCocoaRuntime.h; sourceTree = "<group>"; };
+		D66D56BF2A3ABD1B0029BF7F /* _RX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _RX.m; sourceTree = "<group>"; };
+		D66D56C02A3ABD1B0029BF7F /* _RXObjCRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _RXObjCRuntime.m; sourceTree = "<group>"; };
+		D66D56C12A3ABD1B0029BF7F /* _RXKVOObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _RXKVOObserver.m; sourceTree = "<group>"; };
+		D66D56C22A3ABD1C0029BF7F /* _RXDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _RXDelegateProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +61,15 @@
 		D66D56B12A3ABD090029BF7F /* RxCocoaRuntime */ = {
 			isa = PBXGroup;
 			children = (
-				D66D56B22A3ABD090029BF7F /* RxCocoaRuntime.h */,
+				D66D56BF2A3ABD1B0029BF7F /* _RX.m */,
+				D66D56C22A3ABD1C0029BF7F /* _RXDelegateProxy.m */,
+				D66D56C12A3ABD1B0029BF7F /* _RXKVOObserver.m */,
+				D66D56C02A3ABD1B0029BF7F /* _RXObjCRuntime.m */,
+				D66D56BA2A3ABD1B0029BF7F /* _RXKVOObserver.h */,
+				D66D56BB2A3ABD1B0029BF7F /* _RXObjCRuntime.h */,
+				D66D56BC2A3ABD1B0029BF7F /* _RXDelegateProxy.h */,
+				D66D56BD2A3ABD1B0029BF7F /* _RX.h */,
+				D66D56BE2A3ABD1B0029BF7F /* RxCocoaRuntime.h */,
 			);
 			path = RxCocoaRuntime;
 			sourceTree = "<group>";
@@ -57,7 +81,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D66D56B32A3ABD090029BF7F /* RxCocoaRuntime.h in Headers */,
+				D66D56C42A3ABD1C0029BF7F /* _RXObjCRuntime.h in Headers */,
+				D66D56C72A3ABD1C0029BF7F /* RxCocoaRuntime.h in Headers */,
+				D66D56C62A3ABD1C0029BF7F /* _RX.h in Headers */,
+				D66D56C52A3ABD1C0029BF7F /* _RXDelegateProxy.h in Headers */,
+				D66D56C32A3ABD1C0029BF7F /* _RXKVOObserver.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D66D56CA2A3ABD1C0029BF7F /* _RXKVOObserver.m in Sources */,
+				D66D56C92A3ABD1C0029BF7F /* _RXObjCRuntime.m in Sources */,
+				D66D56C82A3ABD1C0029BF7F /* _RX.m in Sources */,
+				D66D56CB2A3ABD1C0029BF7F /* _RXDelegateProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
